@@ -3,8 +3,8 @@ namespace Pecee\Service\YouTube
 class YouTubeDownload {
     const SERVICE_URL = 'http://www.youtube.com/get_video_info?&video_id=%s&asv=3&el=detailpage&hl=en_US';
     protected $videoId;
-
-	public function __construct($videoId) {
+    
+    public function __construct($videoId) {
         $this->videoId = $videoId;
     }
 
