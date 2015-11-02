@@ -1,0 +1,26 @@
+{
+ 	"name": "pecee/youtube-video-download",
+ 	"description": "Simple class to download YouTube videos in different quality.",
+ 	"keywords": [ "http", "web", "api", "rest", "service", "pecee" ],
+	"license": "MIT",
+	"support": {
+			"source": "https://github.com/skipperbent/http-service"
+    },
+	"authors": [
+    	{
+        	 "name": "Simon Sessingø",
+           	 "email": "simon.sessingoe@gmail.com"
+        }
+	],
+	"require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.7.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pecee\\": "src/Pecee/"
+        }
+    }
+}
